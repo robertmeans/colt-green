@@ -1,0 +1,11 @@
+*.sass-cache*
+node_modules
+_images/Thumbs.db
+*.db
+_notes
+.gitattributes
+.gitignore
+_psd
+.errordocs
+backup
+video

@@ -1,0 +1,614 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/M Beach Legal/beta/gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/M Beach Legal/beta/index.php",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/M Beach Legal/beta/_scripts/scripts.js",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/M Beach Legal/beta/components/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 260.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/M Beach Legal/beta/_scripts/new_client.sublime-project",
+		"/C/wamp/www/M Beach Legal/beta/_scripts/scripts.js",
+		"/C/wamp/www/M Beach Legal/beta/_css/styles.css",
+		"/C/wamp/www/M Beach Legal/gruntfile.js",
+		"/C/wamp/www/Robert Means/new_client/components/js/scripts.js",
+		"/C/wamp/www/Robert Means/new_client/components/sass/styles.scss",
+		"/C/wamp/www/M Beach Legal/deleteNow.htm",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/Emmet/README.md",
+		"/C/wamp/www/M Beach Legal/sftp-config.json",
+		"/C/Users/Robert/Lynda Training/CSS with LESS and Sass/Ch2/LESS_SampleDoc.html",
+		"/C/Users/Robert/Lynda Training/CSS with LESS and Sass/Ch2/var_styles.css",
+		"/C/Users/Robert/Lynda Training/CSS with LESS and Sass/Ch2/var_styles.less",
+		"/C/wamp/www/Benn Mediation/FAQ_z42o.htm",
+		"/C/wamp/www/Wildflower/beta/_css/styles_mobile.css",
+		"/C/wamp/www/Wildflower/beta/_css/styles.css",
+		"/C/wamp/www/Wildflower/_css/styles_mobile.css",
+		"/C/wamp/www/Wildflower/_css/styles.css",
+		"/C/wamp/www/Wildflower/index.php",
+		"/C/Users/Robert/cull/Random Backup Photos/CD's to sort through/CD5/Pictures/LQI work/lifeQuotesVixen.htm",
+		"/C/wamp/www/Wildflower/backups/04.02.14 - new menu - mildly working/_css/styles.css",
+		"/C/wamp/www/Wildflower/_includes/footer.php",
+		"/C/wamp/www/Wildflower/backups/04.01.14 - Tuesday morning/_css/styles.css",
+		"/C/wamp/www/Wildflower/backups/04.01.14 - Tuesday morning/_css/styles_mobile.css",
+		"/C/wamp/www/Wildflower/menu.php",
+		"/C/wamp/www/Wildflower/backups/04.01.14 - Tuesday morning/menu.php",
+		"/C/wamp/www/Wildflower/sushi_menu.php",
+		"/C/wamp/www/Wildflower/_scripts/design.js",
+		"/C/wamp/www/Wildflower/backups/03.14.14 - Friday afternoon/beta/_css/styles.css",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/Wildflower/backups/03.14.14 - Friday afternoon/beta/_css/styles_small.css",
+		"/C/wamp/www/Wildflower/backups/03.14.14 - Friday afternoon/beta/_content/homepage_large.htm",
+		"/C/wamp/www/Wildflower/beta/_css/styles_mobile_menu.css",
+		"/C/wamp/www/Wildflower/beta/_css/menu_styles.css",
+		"/C/wamp/www/Wildflower/beta/_css/sushi_styles.css",
+		"/C/wamp/www/Wildflower/beta/_css/sushi_styles_mobile_menu.css",
+		"/C/wamp/www/Wildflower/beta/_scripts/menu_tabs.js",
+		"/C/wamp/www/Wildflower/beta/_scripts/design.js",
+		"/C/wamp/www/Wildflower/beta/_includes/sushi_menu_header.php",
+		"/C/wamp/www/Wildflower/beta/_content/sushi_menu_mobile.php",
+		"/C/wamp/www/Wildflower/beta/_content/menu_mobile.php",
+		"/C/wamp/www/Wildflower/beta/_includes/menu_header.php",
+		"/C/wamp/www/Wildflower/beta/_includes/header.php",
+		"/C/wamp/www/Wildflower/beta/_css/menu_mobile_styles.css",
+		"/C/wamp/www/Wildflower/beta/sushi_menu.php",
+		"/C/wamp/www/Wildflower/beta/_content/sushi_menu_large.php",
+		"/C/wamp/www/Wildflower/beta/_content/menu_large.php",
+		"/C/wamp/www/Wildflower/beta/menu.php",
+		"/C/wamp/www/Wildflower/beta/_includes/menu_mobile_header.php",
+		"/C/wamp/www/Wildflower/beta/_content/menu_small.php",
+		"/C/wamp/www/Wildflower/beta/menu_mobile.php",
+		"/C/wamp/www/Wildflower/beta/_content/menu_small.htm",
+		"/C/wamp/www/Wildflower/beta/menu_small.php",
+		"/C/wamp/www/Wildflower/beta/index.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_includes/menu_header.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/sushi_menu.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/menu_large.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/menu.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_css/styles.css",
+		"/C/wamp/www/Wildflower/beta/WORKING/_css/menu_styles.css",
+		"/C/wamp/www/Wildflower/beta/WORKING/_css/styles_small.css",
+		"/C/wamp/www/Wildflower/beta/WORKING/_scripts/design.js",
+		"/C/wamp/www/Wildflower/beta/WORKING/_scripts/menu_tabs.js",
+		"/C/wamp/www/Wildflower/beta/WORKING/_includes/footer.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/deleteNow.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/menu_large.htm",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/menu_nav.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/menu_small.htm",
+		"/C/wamp/www/Wildflower/beta/WORKING/menu_nav.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_includes/header.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/menu_OLD.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/index.php",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/homepage_small.htm",
+		"/C/wamp/www/Wildflower/beta/WORKING/_content/homepage_large.htm",
+		"/C/wamp/www/Wildflower/beta/WORKING/_css/sushi_styles.css",
+		"/C/wamp/www/Wildflower/backups/Wednesday morning 03.12.14/WORKING/index.php",
+		"/C/wamp/www/Wildflower/beta/_css/styles_small.css",
+		"/C/wamp/www/Wildflower/beta/_content/homepage_small.htm",
+		"/C/wamp/www/Wildflower/beta/_content/homepage_large.htm",
+		"/C/Users/Robert/temp/travel_itenerary_112013.txt",
+		"/C/wamp/www/Wildflower/beta/_content/homepage_large02.htm",
+		"/C/wamp/www/Wildflower/beta/_css/styles_large.css",
+		"/C/wamp/www/Wildflower/beta/_includes/footer.php",
+		"/C/wamp/www/Robert Means/_content/content_large.htm",
+		"/C/wamp/www/Wildflower/beta/sushi_menu.txt",
+		"/C/wamp/www/Wildflower/beta/_includes/menu_tabs.js",
+		"/C/wamp/www/Wildflower/docs/menu.txt",
+		"/C/wamp/www/Wildflower/beta/menu_02.php",
+		"/C/wamp/www/Wildflower/docs/menu_02.htm",
+		"/C/wamp/www/Wildflower/beta/testing.php",
+		"/C/wamp/www/Wildflower/_css/deleteNow.css",
+		"/C/wamp/www/Robert Means/offsite_files/code_help/deleteNow.htm",
+		"/C/wamp/www/Wildflower/beta/fromStackoverflow.txt",
+		"/C/wamp/www/Wildflower/beta/deleteNow2.php",
+		"/C/wamp/www/Wildflower/docs/menustyles.css",
+		"//ROBERT-TOSHIBA/wamp/www/.sublime/share between computers/html5.sublime-snippet",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/HTML/html5.sublime-snippet",
+		"/C/wamp/www/Wildflower/docs/menu.htm",
+		"/C/wamp/www/Wildflower/_css/draft_styles.css",
+		"/C/wamp/www/Wildflower/drafts/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/Non Text Files/Readme.md",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/readme.md",
+		"/C/wamp/www/Wildflower/_psd/Page3B_edit_01.pdf",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/wamp/www/Wildflower/_css/under_construction_styles.css",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/wamp/www/wildflowerevergreen/.sublime/SideBarEnhancements.json",
+		"/C/wamp/www/wildflowerevergreen/SideBarEnhancements.json",
+		"/C/wamp/www/wildflowerevergreen/drafts/index.php",
+		"/C/wamp/www/robertmeans/acts/index.html",
+		"/C/wamp/www/robertmeans/new_client/index.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/wamp/www/robertmeans/new_client/formmail.php",
+		"/C/Users/Robert/AppData/Roaming/Sublime Text 3/Packages/Theme - Soda/README.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"<open files>,C:\\wamp\\www\\Wildflower\\beta\\_css",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"all",
+			"contents",
+			"ul",
+			"nav",
+			"printable",
+			"footer",
+			"toggle",
+			"footer",
+			"end_left",
+			"toggle",
+			"design",
+			"footer",
+			"menu_mobile_container",
+			"regular_menu_large",
+			"z-index",
+			"menu_toggle",
+			"regular_menu_mobile a",
+			";\n",
+			"sushi_nav",
+			"sushi_mobile",
+			"menu_nav",
+			"mobile_nav",
+			"#all",
+			"nav",
+			"z-index",
+			"menu_header",
+			"#all",
+			"#all.sushi",
+			"#menu_header",
+			"nav.menu",
+			"nav.sushi",
+			"nav",
+			"menu_header",
+			"menu_large_rt",
+			";\n",
+			"sushi",
+			"3px",
+			"home_text",
+			"susih",
+			"#item-",
+			"max-width: 800px",
+			"sushi_menu_link",
+			"menu",
+			"all",
+			"z-index",
+			"menu_header",
+			"substitute",
+			"border",
+			"item_description",
+			"red",
+			"menu_header",
+			"6",
+			"826",
+			"776",
+			".sides_n_such_left_mobile",
+			"#all",
+			".contents",
+			"price",
+			".category_description_price",
+			"menu_header",
+			"wrapper_menu",
+			"menu_header",
+			"header",
+			"footer",
+			"_mobile",
+			"z-index",
+			"menu_large_rt_info",
+			".contents",
+			"z-index",
+			"footer",
+			"red_warning",
+			"padding-right",
+			"category_description_mobile",
+			"data-rel=\"item-",
+			"#all",
+			"#item",
+			"class=\"item_odd_price\"",
+			"class=\"item_odd\"",
+			"class=\"item_even_price\"",
+			"class=\"item_even\"",
+			"class=\"item_odd_price_first\"",
+			"class=\"item_odd_first\"",
+			"id=\"item-",
+			"all",
+			"009",
+			".item_mobile",
+			"Athena",
+			"font-size",
+			"item_description_mobile",
+			"beverages_left_top_menu",
+			"soft_drinks_menu",
+			"no_side_menu",
+			"blt_price",
+			"class=\"beverages_right_top\"",
+			"class=\"beverages_left_top_menu\"",
+			"class=\"soft_drinks_price\"",
+			"class=\"soft_drinks\"",
+			"class=\"no_side\"",
+			"class=\"blt_price\"",
+			"class=\"vga\"",
+			"class=\"blt\"",
+			"be_own_chef",
+			"Be Your",
+			"Be your own chef -",
+			"item_first_mobile",
+			"Huevos",
+			"huevos",
+			"Sides & Such",
+			"sides &amp; such",
+			"sides &amp;",
+			"be_own_chef",
+			"class=\"sides_n_such_right_price\"",
+			"class=\"sides_n_such_right\"",
+			"class=\"sides_n_such_left_price\"",
+			"class=\"sides_n_such_left\"",
+			"class=\"sides_n_such\"",
+			"class=\"add_item_price\"",
+			"class=\"add_item\"",
+			"class=\"item_description\"",
+			"class=\"item_first",
+			"class=\"item_first_mobile\"",
+			"class=\"item_first\"",
+			"class=\"item_price\"",
+			"class=\"item\"",
+			"class=\"substitute\"",
+			"class=\"category_includes\"",
+			"class=\"category_description_price\"",
+			"class=\"category_description\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sushi_menu_large",
+			"sushi_menu_mobile",
+			"regular_menu_large",
+			"regular_menu_mobile",
+			"4px",
+			"",
+			"000",
+			"beverages_left_top_mobile",
+			"soft_drinks_mobile",
+			"no_side_mobile",
+			"sides_n_such",
+			"sides_n_such_",
+			"&amp;",
+			"&cent;",
+			" - ",
+			"-",
+			"&eacute;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/M Beach Legal/beta/gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/M Beach Legal/beta/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/M Beach Legal/beta/_scripts/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/M Beach Legal/beta/components/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 126.0
+	},
+	"project": "mbeachlegal.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"beta\\index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp\\www\\.sublime\\RobertMeans.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -9,4 +9,4 @@ _psd
 .errordocs
 backup
 video
-stfp-config.json
+sftp-config.json

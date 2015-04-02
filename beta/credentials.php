@@ -29,7 +29,7 @@
 		<p class="subsequent-p">Mr. Green has managed $200M A++ Commercial Office Facilities, Custom Landmark Historic Homes and Mission Critical Industrial Facilities.</p>
 		<p class="subsequent-p">Mr. Green continued his experience from Senior Project Manager in 2000 to practicing Development, Design and Construction Consulting since 2002.  Colt-Green was established in 2007 to provide clients with a direct source to these industries without the drain of lengthy contract discussions or pre-launch equity conversations.</p>  
 
-		<p class="subsequent-p">Colt-Green is a Consultant based Professional Development, Design and Construction Guidance.</p>
+		<p class="subsequent-p">Colt-Green is a Consultant based Professional Development, Design and Construction Manager.</p>
 
 		<h3>Education</h3> 
 		<p class="subsequent-p">Washington &amp; Lee University, Lexington, VA &nbsp;&nbsp;&nbsp;BA History</p>

@@ -12,6 +12,9 @@
 		<div class="footer-credentials">
 			CGC-1514753
 		</div>
+		<div class="footer-linkback">
+			&copy; 2015 Colt-Green Construction | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a>
+		</div>
 
 			  
 		</footer>

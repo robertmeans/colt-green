@@ -6,6 +6,11 @@ _notes
 .gitattributes
 .gitignore
 _psd
+
+
+/testing
+
+
 .errordocs
 backup
 video

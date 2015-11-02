@@ -4,7 +4,7 @@ css_dir = '_css'
 sass_dir = 'components/sass'
 javascripts_dir = '_scripts'
 
-output_style = :expanded
-# output_style = :compressed
+# output_style = :expanded
+output_style = :compressed
 
 #relative_assets = true;

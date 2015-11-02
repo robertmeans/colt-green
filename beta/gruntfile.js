@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 				tasks: ['compass:dev']
 			}, //sass	
 			hypertext: {
-				files: ['*.php','*.htm']
+				files: ['*.php','*.htm', '_includes/*.*']
 			} //php
 		} //watch
 	}) //initConfig

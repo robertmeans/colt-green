@@ -6,8 +6,8 @@ error_reporting(E_ALL ^ E_NOTICE);
 local instructions in: Tools/PHP FormMail
 */
 
-// $my_email = "stewart@colt-green.com";
-$my_email = "robert@robertmeans.com";
+$my_email = "stewart@colt-green.com";
+// $my_email = "robert@robertmeans.com";
 
 /* let visitor fill in the "from" field - leave string below empty */
 $from_email = "";
@@ -82,8 +82,8 @@ $from_name = "";
 if(isset($_REQUEST['name']) && !empty($_REQUEST['name'])){$from_name = stripslashes($_REQUEST['name']);}
 
 $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
-/* gotta make sure the creeps are not e-mailing you - the Internet can be a big, dangerous place! */
-$headers .= "BCC: robert@robertmeans.com\r\n";
+/* added to monitor kid's sites - comment out on everyone else. */
+// $headers .= "BCC: robert@robertmeans.com\r\n";
 
 }
 

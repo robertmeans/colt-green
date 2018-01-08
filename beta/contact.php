@@ -12,7 +12,14 @@
 	<link rel="stylesheet" href="_css/styles.css?<?php echo time(); ?>" type="text/css" />
 	
   <script src="_scripts/scripts.js"></script>
-
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+   <script>
+    function recaptchaCallback() {
+        $('#confirm').addClass('display');
+        $('#send').removeAttr('disabled');
+        $('#send').removeClass('display');
+    };
+  </script> 
 </head>
 <body class="non-index" onload="document.forms[0].name.focus();">
 
@@ -43,9 +50,21 @@
           <label class="text" for="comments">Comments</label>
           <textarea name="comments" id="comments" tabindex="30"></textarea>
         </li>
-        <li class="contact_pg">
+
+        <!-- <li class="contact_pg">
             <input id="send" type="submit" value="Send" tabindex="40" /><input id="clear" type="button" value="Clear" onClick="rUSure()" tabindex="50" />
+        </li> -->
+
+        <li class="contact_pg">
+          <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LfIrz8UAAAAAGBWfjJbpFRn-zSDQShDNl689Qb3"></div>
         </li>
+        <li class="contact_pg">
+            <button id="confirm" disabled>Check Captcha above to enable Send</button>
+            <button id="send" class="display" disabled>Send</button>
+            <!-- <input id="send" type="submit" value="Send" tabindex="40" disabled /> -->
+        </li>
+
+        
     </ul> 
     </form>   
              

@@ -1,4 +1,36 @@
 <?php
+function post_captcha($user_response) {
+        $fields_string = '';
+        $fields = array(
+            'secret' => '6LfIrz8UAAAAAOP75swDN-hJBV0fyPfXeyG71ESp',
+            'response' => $user_response
+        );
+        foreach($fields as $key=>$value)
+        $fields_string .= $key . '=' . $value . '&';
+        $fields_string = rtrim($fields_string, '&');
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+        curl_setopt($ch, CURLOPT_POST, count($fields));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
+    }
+
+    // Call the function post_captcha
+    $res = post_captcha($_POST['g-recaptcha-response']);
+
+    if (!$res['success']) {
+        // What happens when the CAPTCHA wasn't checked - Fallback validation
+        // echo '<p style="color: red; padding: 10px; border: 1px solid red; background-color: white; float: left;"><b>Submission Unsuccessful</b><br />Please refresh and make sure you check the security CAPTCHA box.</p><br>';
+
+        // All error checking is handled on the front end. No need for this.
+
+    } else{
 
 error_reporting(E_ALL ^ E_NOTICE);
 
@@ -54,7 +86,28 @@ if(count($errors)){foreach($errors as $value){print "$value<br>";} exit;}
 
 if(!defined("PHP_EOL")){define("PHP_EOL", strtoupper(substr(PHP_OS,0,3) == "WIN") ? "\r\n" : "\n");}
 
-function build_message($request_input){if(!isset($message_output)){$message_output ="";}if(!is_array($request_input)){$message_output = $request_input;}else{foreach($request_input as $key => $value){if(!empty($value)){if(!is_numeric($key)){$message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;}else{$message_output .= build_message($value).", ";}}}}return rtrim($message_output,", ");}
+    function build_message($request_input){
+        if (!isset($message_output)) {
+            $message_output ="";
+        } if (!is_array($request_input)) {
+            $message_output = $request_input;
+        } else {
+            foreach($request_input as $key => $value) {
+                // check that the key of the $_POST variable is not the
+                // g-recaptcha-response before adding it to the message
+                if ($key != 'g-recaptcha-response') {
+
+                    if(!empty($value)) {
+                        if (!is_numeric($key)) {
+                            $message_output .= str_replace("_"," ",ucfirst($key)).": ".build_message($value).PHP_EOL.PHP_EOL;
+                        } else {
+                            $message_output .= build_message($value).", ";
+                        }
+                    }
+                }
+            }   
+        } return rtrim($message_output,", ");
+    }
 
 $message = build_message($_REQUEST);
 
@@ -88,7 +141,7 @@ $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
 }
 
 mail($my_email,$subject,$message,$headers);
-
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -116,7 +169,7 @@ mail($my_email,$subject,$message,$headers);
 			<div class="thank-you">
 			<p>Your message was sent successfully. I will see it soon.<br><br>
 			<a href="index.php">Home</a><br><br>
-			...these messages are going to me (bob) until we're all dialed in.</p>
+			<br><br></p>
 			</div>
 
 <?php include "_includes/footer.php" ?>
@@ -126,6 +179,6 @@ mail($my_email,$subject,$message,$headers);
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="_scripts/nav.js"></script>
 <script src="_scripts/scripts.js"></script>
-<script src="http://localhost:35729/livereload.js"></script>
+<!-- <script src="http://localhost:35729/livereload.js"></script> -->
 </body>
 </html>

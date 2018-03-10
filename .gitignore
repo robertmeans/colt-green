@@ -1,0 +1,18 @@
+*.sass-cache*
+_docs
+node_modules
+npm-debug.log
+_images/Thumbs.db
+*.db
+_notes
+.gitattributes
+_backup/
+_Original Website/
+_psd
+pictures/
+assets/
+video
+Pinkesh files/
+071117-phishing-attack
+video tutorials/
+sftp-config.json
